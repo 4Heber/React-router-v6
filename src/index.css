@@ -1,0 +1,25 @@
+*{
+  font-family: monospace;
+}
+header nav ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+ul li a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.cssActiveClass{
+  font-weight: bold;
+  pointer-events: none;
+}
